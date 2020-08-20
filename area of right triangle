@@ -1,0 +1,12 @@
+INPUT:
+a = int(input("enter the base of triangle"))
+b = int(input("enter the height of triangle"))
+area=(a*b)/2
+print(area)
+
+
+
+OUTPUT:
+enter the base of triangle2
+enter the height of triangle3
+3.0

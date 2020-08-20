@@ -1,0 +1,12 @@
+INPUT:
+a = int(input("get a value"))
+print("current:" ,a)
+print("next:", a+1)
+print("previous", a-1)
+
+
+OUTPUT:
+get a value32
+current: 32
+next: 33
+previous 31

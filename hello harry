@@ -1,0 +1,8 @@
+INPUT:
+a = input()
+print("hello", a)
+
+
+OUTPUT:
+harry
+hello harry

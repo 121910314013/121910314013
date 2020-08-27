@@ -1,0 +1,20 @@
+
+
+x = int(input("enter the 1st num"))
+y = int(input("enter the 2nd num"))
+def gcd(x ,y):
+    while y > 0:
+        x, y = y, x % y
+    return x
+
+def lcm(x, y):
+    return x * y / gcd(x, y)
+
+print(lcm(x,y),"is lcm")
+print(gcd(x,y),"is gcd")
+
+OUTPUT:
+enter the 1st num24
+enter the 2nd num6
+24.0 is lcm
+6 is gcd

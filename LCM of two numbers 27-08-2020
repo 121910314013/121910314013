@@ -1,0 +1,19 @@
+
+
+x = int(input("enter 1st num"))
+y = int(input("enter 2nd num"))
+if(x>y):
+    max = x
+else:
+    max = y
+while(1):
+    if(max%x==0 and max%y==0):
+        print("lcm is ", max)
+        break
+    max=max+1
+    
+    
+OUTPUT:
+enter 1st num24
+enter 2nd num6
+lcm is  24

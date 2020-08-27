@@ -1,0 +1,19 @@
+
+
+x = int(input("enter 1st num"))
+y = int(input("enter 2nd num"))
+z = int(input("enter 3rd num"))
+if(x<y<z):
+    print(x," is the smallest")
+elif(y<z<x):
+    print(y," is the smallest")
+else:
+    print(z,"is smallest")
+    
+    
+OUTPUT:
+enter 1st num2
+enter 2nd num3
+enter 3rd num4
+2  is the smallest
+   

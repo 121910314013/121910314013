@@ -1,0 +1,29 @@
+
+
+
+a = int(input("enter the number"))
+n = a
+x = a
+sum =0
+while a>0:
+    i = a%10
+    sum = sum+i
+    a =a/10
+print(int(sum), "is sum of digits")
+cube =0
+while n>0:
+    j = n%10
+    cube = cube+j*j*j
+    n =int(n/10)
+print(cube)
+if int(cube)==x:
+    print("its an armstrong number")
+else:
+    print("its not an armstrong number")
+
+
+OUTPUT:
+enter the number153
+9 is sum of digits
+153
+its an armstrong number

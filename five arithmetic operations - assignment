@@ -1,0 +1,23 @@
+
+
+a = int(input("enter the first number"))
+b = int(input("enter the second number"))
+sum = a+b
+print(sum, "is the sum")
+sub = a-b
+print(sub, "is the sub")
+multiply =a*b
+print(multiply, "is the product")
+divide =a/b
+print(divide, "is the division")
+mod =a%b
+print(mod, "is the modulus")
+
+OUTPUT:
+enter the first number75
+enter the second number25
+100 is the sum
+50 is the sub
+1875 is the product
+3.0 is the division
+0 is the modulus

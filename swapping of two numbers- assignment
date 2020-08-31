@@ -1,0 +1,13 @@
+
+
+a = int(input("enter the first number"))
+b = int(input("enter the second number"))
+a,b=b,a
+print(a,"is first number")
+print(b,"is second number")
+
+OUTPUT:
+enter the first number25
+enter the second number65
+65 is first number
+25 is second number

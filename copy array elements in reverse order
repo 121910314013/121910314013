@@ -1,0 +1,15 @@
+from array import *
+
+vals = array('i',[2,3,4,5,6])
+NewArr = array(vals.typecode,[a for a in vals])
+
+NewArr.reverse()
+for i in NewArr:
+    print(i)
+    
+OUTPUT:
+6
+5
+4
+3
+2

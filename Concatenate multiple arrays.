@@ -1,0 +1,10 @@
+
+from array import *
+
+a = array('i',[12,34,56,78,90])
+b = array('i',[98,76,54,32,21])
+c = array('i',a+b)
+print(c)
+
+OUTPUT:
+array('i', [12, 34, 56, 78, 90, 98, 76, 54, 32, 21])

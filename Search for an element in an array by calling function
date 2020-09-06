@@ -1,0 +1,16 @@
+
+from array import *
+
+a = array('i',[12,34,56,78,90])
+val = int(input("enter the element to search"))
+for i in a:
+    if i == val:
+        print(val)
+        break
+
+print(a.index(val))
+
+OUTPUT:
+enter the element to search56
+56
+2
